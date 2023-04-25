@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap - swap nodes one by one.
+ * swaping - swap nodes one by one.
  * @a: first node-- beagining node.
  * @b: second node next node.
  * Return: nothing
