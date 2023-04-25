@@ -1,7 +1,7 @@
 #include "sort.h"
 
 /**
- * swap - swap nodes for exchange
+ * swap_l - swap nodes for exchange
  * @a: first node that is to be swaped.
  * @b: second node that is to be swapped.
  * Return: nothing
