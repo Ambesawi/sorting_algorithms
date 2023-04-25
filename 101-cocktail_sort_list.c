@@ -44,18 +44,18 @@ void cocktail_sort(int *array, size_t size)
 			{
 				swap_p = array[k];
 				array[k] = array[k + 1];
-				array[k+ 1] = swap_p;
+				array[k + 1] = swap_p;
 				print_array(array, size);
 				swaped = 1;
 			}
 		}
 		j--;
-		if(swaped)
+		if (swaped)
 		{
 			swaped = 0;
 			for (k = j; k > i; k--)
 			{
-				if(array[k] < array[k - 1]) 
+				if (array[k] < array[k - 1])
 				{
 					swap_p = array[k];
 					array[k] = array[k - 1];
@@ -79,6 +79,5 @@ int main(void)
 	cocktail_sort(array, n);
 	printf("\n");
 	print_array(array, n);
-	
 	return (0);
 }
