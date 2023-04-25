@@ -60,7 +60,7 @@ void quicksort(int *array, ssize_t low, ssize_t high, size_t size)
 }
 
 /**
- * quicksort - divides the array to perform sorting in quicksort.
+ * quick_sort - divides the array to perform sorting in quicksort.
  * @array: array to be sorted in quicksort.
  * @size: size of the array.
  * Return: nothing
